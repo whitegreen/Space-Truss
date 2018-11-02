@@ -1,7 +1,7 @@
 # Space-Truss
 The algorithm is based on D. Hutton's Fundamentals of Finite Element Analysis. 
 
-This library uses Jama as the linear solver, however, the user may use other Java solver instead by modifying the source file.
+This library uses Jama (https://math.nist.gov/javanumerics/jama/) as the linear solver, however, the user may use other Java solver instead by modifying the source file.
 
 
 ![alt text](color.png "Description goes here")
