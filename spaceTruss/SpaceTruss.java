@@ -23,8 +23,8 @@ public class SpaceTruss {
 	private double[][] KAA;
 	private double[] FA;
 	public double[] member_stress;
-	public double[] UA;  //nodal displacement
-	public double[] member_force;
+	public double[] UA;  //nodal displacement arranged in a vector: ux1, uy1,uz1, ux2, uy2,uz2,…
+	public double[] member_force;//member compression/tension arranged in a vector
 	public double max_stress = 0;
 
 	public SpaceTruss(double[][] nodes, int[][] members, double[][] loads, boolean[][] constrained, double[] As, double[] Es) {
