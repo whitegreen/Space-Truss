@@ -13,9 +13,9 @@ int[][] members;   //  members[2] ={6,8} means the 3rd member links 7th node to 
 
 double[][] loads;  // loads on each node. Distributed loads must be transformed to nodal loads.
 
-double[] As; // Young's modulus
+double[] Es; // Young's modulus
 
-double[] Es; // cross-sectional area
+double[] As; // cross-sectional area
 
 boolean[][] constrained;    //constrained[2]={false, true, false} means the 3rd node is constrained along y-axis.
 

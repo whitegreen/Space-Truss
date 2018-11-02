@@ -8,8 +8,8 @@ public class SpaceTruss {
 	private final double[][] nodes;     
 	private final int[][] members;   //  members[2] ={6,8} means the 3rd member links 7th node to 9th node.
 	private final double[][] loads;
-	private double[] As; // Young's modulus
-	private double[] Es; // cross-sectional area
+	private double[] Es; // Young's modulus
+	private double[] As; // cross-sectional area
 	private final boolean[][] constrained;    //constrained[2]={false, true, false} means the 3rd node is  constrained along y-axis.
 	
 	private Integer[] ni2ai;// 1D node index (DIM*) to active index
