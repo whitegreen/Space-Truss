@@ -24,7 +24,7 @@ The algorithm solves a matrix equation Ku=F, where K is the stiffness matrix, u 
 
 This library uses Jama to solve the equation: UA = M.solve_square_Axb(KAA, FA), see SpaceTruss.construct_matrices(). 
 
-One might replace this method using other linear solvers (e.g. https://github.com/fommil/matrix-toolkits-java) for a better performance.
+One might replace this method using other linear solvers for better performances: 1. https://ujmp.org, or 2.https://github.com/fommil/matrix-toolkits-java (very fast). 
 
 ## 3. Ouput
 
