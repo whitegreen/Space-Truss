@@ -1,5 +1,5 @@
 # Space-Truss
-This Space Truss analysis package is based on D. Hutton's Fundamentals of Finite Element Analysis. 
+The algorithm is based on D. Hutton's Fundamentals of Finite Element Analysis. 
 
 This library uses Jama as the linear solver, however, the user may use other Java solver instead by modifying the source file.
 
@@ -28,6 +28,6 @@ One might replace this method using other linear solvers (e.g. https://github.co
 
 ## 3. Ouput
 
-double[] UA;  //nodal displacement arranged in a vector: ux1, uy1,uz1, ux2, uy2,uz2,…
+double[] UA;  //(un-constrained) nodal displacements arranged in a vector: ux1, uy1,uz1, ux2, uy2,uz2,…
 
 double[] member_force;//member compression/tension arranged in a vector: fx1, fy1,fz1, fx2, fy2,fz2,…
