@@ -28,6 +28,10 @@ One might replace this method using other linear solvers (e.g. https://github.co
 
 ## 3. Ouput
 
-double[] UA;  //(un-constrained) nodal displacements arranged in a vector: ux1, uy1,uz1, ux2, uy2,uz2,…
+int lenA;  //the number of unconstrained nodal displacements.
+
+String[] symbols; //the notations of unconstrained nodal displacements, symbols[4]=“u2y” means that UA’s 5th element is the y-axis displacement of the 3rd node.
+
+double[] UA;  //(unconstrained) nodal displacements arranged in a vector: ux1, uy1,uz1, ux2, uy2,uz2,…
 
 double[] member_force;//member compression/tension arranged in a vector: fx1, fy1,fz1, fx2, fy2,fz2,…
