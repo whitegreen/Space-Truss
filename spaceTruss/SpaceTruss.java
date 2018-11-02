@@ -2,6 +2,8 @@ package spaceTruss;
 
 import java.text.DecimalFormat;
 
+//Hao Hua, Southeast University, whitegreen@163.com
+
 public class SpaceTruss {  
 	DecimalFormat df = new DecimalFormat("###.###");
 	private static final int DIM = 3;
