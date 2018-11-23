@@ -35,3 +35,9 @@ String[] symbols; //the notations of unconstrained nodal displacements, symbols[
 double[] UA;  //(unconstrained) nodal displacements arranged in a vector: ux1, uy1,uz1, ux2, uy2,uz2,…
 
 double[] member_force;//member compression/tension arranged in a vector: fx1, fy1,fz1, fx2, fy2,fz2,…
+
+## 4. Stiffness matrix of member e
+
+![alt text](formula.png "Description goes here")
+
+where u denotes the direction vector of member e.
